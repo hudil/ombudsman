@@ -21,6 +21,7 @@ class AdminAsset extends AssetBundle
     public $basePath = '@webroot';
     public $baseUrl = '@web';
     public $css = [
+        'assets/css/pages/wizard/wizard-1.css',
         'assets/plugins/global/plugins.bundle.css',
         'assets/plugins/custom/prismjs/prismjs.bundle.css',
         'assets/css/style.bundle.css',
@@ -33,7 +34,8 @@ class AdminAsset extends AssetBundle
         'assets/plugins/global/plugins.bundle.js',
         'assets/plugins/custom/prismjs/prismjs.bundle.js',
         'assets/js/scripts.bundle.js',
-        'assets/js/pages/crud/ktdatatable/base/data-local.js'
+        'assets/js/pages/crud/ktdatatable/base/data-local.js',
+        'assets/js/pages/custom/contacts/add-contact.js'
     ];
     // public $depends = [
     //     'yii\web\YiiAsset',
